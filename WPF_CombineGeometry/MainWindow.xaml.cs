@@ -28,6 +28,8 @@ namespace WPF_CombineGeometry
 
         int count = 0;
 
+        public int Count { get; set; }
+
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             EllipseGeometry eg = new EllipseGeometry(new Rect(10, 10, 100, 100));
