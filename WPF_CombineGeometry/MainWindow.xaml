@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="408.479" Width="436.409">
 
-    <Canvas Name="canvas1">
+    <Canvas Name="mainCanvas">
         <Path Fill="Yellow" Stroke="Blue" Height="100" Canvas.Left="42" Canvas.Top="33" Width="250">
             <Path.Data>
                 <CombinedGeometry GeometryCombineMode="Xor">

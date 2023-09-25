@@ -36,19 +36,19 @@ namespace WPF_CombineGeometry
             RectangleGeometry rg = new RectangleGeometry(new Rect(30, 30, 200, 100));
             CombinedGeometry cg = new CombinedGeometry(GeometryCombineMode.Xor, eg, rg, new RotateTransform(30, 10, 10));
 
-            Path myPath = new Path();
+            Path mainPath = new Path();
 
             // Задание цветов
-            myPath.Stroke = Brushes.Black;
-            myPath.Fill = Brushes.Beige;
+            mainPath.Stroke = Brushes.Black;
+            mainPath.Fill = Brushes.Beige;
 
             // Толщина контура
-            myPath.StrokeThickness = 1;
+            mainPath.StrokeThickness = 1;
 
-            myPath.Data = cg;
-            myPath.Opacity = 1;
+            mainPath.Data = cg;
+            mainPath.Opacity = 1;
 
-            canvas1.Children.Add(myPath);
+            mainCanvas.Children.Add(mainPath);
         }
     }
 }

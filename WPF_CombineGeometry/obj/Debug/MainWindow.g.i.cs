@@ -43,7 +43,7 @@ namespace WPF_CombineGeometry {
         
         #line 10 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Canvas canvas1;
+        internal System.Windows.Controls.Canvas mainCanvas;
         
         #line default
         #line hidden
@@ -87,7 +87,7 @@ namespace WPF_CombineGeometry {
             switch (connectionId)
             {
             case 1:
-            this.canvas1 = ((System.Windows.Controls.Canvas)(target));
+            this.mainCanvas = ((System.Windows.Controls.Canvas)(target));
             return;
             case 2:
             this.button1 = ((System.Windows.Controls.Button)(target));
